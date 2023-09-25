@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+ #navbar {
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:15px ; 
+    background-color:#0b212a
+    
+}
+.navbar .navbar-brand{
+    font-size: 40px;
+    font-weight: 800;
+    color:#F28123;
+    padding-left: 60px;
+}
+
+#navbarSupportedContent{
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    padding-right: 10px;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #F28123;
+
+}
+#navbarSupportedContent button{
+    background: #F28123;
+    color: #0b212a;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-right: 30px;
+    
+}
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-size: cover;
+}
+.home{
+    background: rgb(203, 203, 232);
+
+    
+}
+.home p{
+    font-size: 30px;
+    color: #F28123;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:800 ;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-align: justify;
+
+}
+.home h1{
+    font-size: 64px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    line-height: 1.3;
+}
+.btn{ 
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: #F28123;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.home img{
+    width: 500px;
+    height: 500px;
+}
+.about p{
+    text-align: justify;
+    font-size: large;
+    font-weight: 200;
+}
+.img1{
+    width: 500px;
+    height: 500px;
+}
+
+.orange-text{
+    color: #F28123;
+}
+.img2{
+    width: 70px;
+    height: 70px;
+}
+.row1{
+    padding-right: 50px;
+}
+/* products */
+.portfolio{
+    background:rgb(203, 203, 232);
+    text-align: center;
+    margin-top: 10px; 
+    color:#0b212a;  
+    background-size: cover;
+}
+.portfolio h1{
+    font-size: 50px;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.portfolio h2{
+    
+    font-weight: 400;
+    word-spacing: 2px;
+
+}
+
+#navbar1{
+    
+    /* top:0;
+    left:0;
+    z-index:100; */
+    background-color:white;
+   margin-left: 35%;
+   margin-right: 35%;
+   background-color: #0b212a;
+   border-radius: 50px;  
+}
+.portfolio img{
+    width: 300px;
+    height: 270px;
+
+    
+}
+.card{
+    width: 300px;
+    height: 360px;
+    /* background-color:#97a1a1; */
+    border: none !important;
+    box-shadow: 10px 10px 20px rgb(47, 46, 46),
+                inset 2px 2px 20px white;
+    border-radius: 20px; 
+    overflow: hidden;  
+    justify-content: center;  
+    align-items: center; 
+    margin: 20px 60px;        
+
+}
+.card-body{
+    text-align: center;
+    color: black;
+    margin-top:-9px ;
+}
+.card:hover{
+    box-shadow: inset 20px 10px 20px rgb(46, 45, 45),
+                inset -2px -2px 20px white;
+}
+/* team details */
+.team{
+    background:white;
+    text-align: center;
+    margin-top:0; 
+    color:#0b212a;  
+    background-size: cover;
+    margin-bottom: -200px;
+    padding-right: 100px;
+    padding-left: 50px;
+
+   
+}
+.team h1{
+    font-size: 50px;
+    font-weight: 500;
+    word-spacing: 2px;
+
+}
+.team h2{
+    font-weight: 400;
+    word-spacing: 2px;
+}
+.team img{
+    width: 250px;
+    height: 300px;
+}
+
+#card1{
+    width: 250px;
+    height: 300px;
+    /* background-color:#97a1a1; */
+    border: none !important;
+    box-shadow: 10px 10px 10px rgb(203, 203, 232),
+                inset 2px 2px 10px white;
+    border-radius: 20px; 
+    overflow: hidden;  
+    justify-content: center;  
+    align-items: center; 
+    margin: 20px 60px;        
+
+}
+
+.client h4{
+    font-size: 50px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+.client h3{
+    font-weight: 200;
+    word-spacing: 2px;
+}
+.client{
+    background:white;
+    text-align: center;
+    margin-top:-100px; 
+    color:#0b212a;  
+    background-size: cover;
+    margin-bottom: -100px;
+  
+   
+}
+#card2{
+    width: 100px;
+    height: 100px;
+    background-color:#97a1a1;
+    border: none !important;
+    box-shadow: 10px 10px 10px rgb(203, 203, 232),
+                inset 2px 2px 10px white;
+    border-radius: 20px; 
+    overflow: hidden;  
+    justify-content: center;  
+    align-items: center; 
+    margin: 20px 60px;        
+}
+
+
+
+
