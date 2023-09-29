@@ -11,16 +11,16 @@
 
  #navbar {
     position:sticky;
-    top:0;
-    left:0;
+    
+  
     z-index:100;
-    padding:15px ; 
-    background-color:#0b212a
+    padding:5px ; 
+    background-color:#0c3a4c;
     
 }
 
 .navbar .navbar-brand{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     color:#F28123;
     padding-left: 60px;
@@ -53,7 +53,7 @@ section{
     background-size: cover;
 }
 .home{
-    background: rgb(203, 203, 232);
+    /* background: rgb(203, 203, 232); */
     margin-top: -50px;
 
     
@@ -84,7 +84,7 @@ section{
     color: black;
     padding: 10px 20px;
     border-radius: 50px;
-    font-weight: 500;
+    
     margin-left: 20px;
     font-size: 20px;
 }
@@ -95,6 +95,7 @@ section{
 .about{
     margin-top: -60px;
     margin-bottom: -50px;
+    background: rgb(203, 203, 232);
 }
 .about p{
     text-align: justify;
@@ -118,20 +119,20 @@ section{
 }
 /* products */
 .portfolio{
-    background:rgb(203, 203, 232);
+    /* background:rgb(203, 203, 232); */
     text-align: center;
-    margin-top: 10px; 
-    color:#0b212a;  
+    margin-top: 100px; 
+    color:#0c3a4c;  
     background-size: cover;
 }
 .portfolio h1{
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 300;
     word-spacing: 2px;
 }
 .portfolio h2{
     
-    font-weight: 400;
+    font-weight: 100;
     word-spacing: 2px;
 
 }
@@ -144,21 +145,21 @@ section{
     background-color:white;
    margin-left: 35%;
    margin-right: 35%;
-   background-color: #0b212a;
+   background-color: #0c3a4c;
    border-radius: 50px;  
 }
 .portfolio img{
-    width: 300px;
+    width: 270px;
     height: 270px;
 
     
 }
 .card{
-    width: 300px;
-    height: 360px;
+    width: 290px;
+    height: 350px;
     /* background-color:#97a1a1; */
     border: none !important;
-    box-shadow: 10px 10px 20px rgb(47, 46, 46),
+    box-shadow: 10px 10px 20px rgb(203, 203, 232),
                 inset 2px 2px 20px white;
     border-radius: 20px; 
     overflow: hidden;  
@@ -171,9 +172,10 @@ section{
     text-align: center;
     color: black;
     margin-top:-9px ;
+    font-size: small;
 }
 .card:hover{
-    box-shadow: inset 20px 10px 20px rgb(46, 45, 45),
+    box-shadow: inset 20px 10px 20px rgb(203, 203, 232),
                 inset -2px -2px 20px white;
 }
 /* team details */
@@ -190,13 +192,13 @@ section{
    
 }
 .team h1{
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 300;
     word-spacing: 2px;
 
 }
 .team h2{
-    font-weight: 400;
+    font-weight: 100;
     word-spacing: 2px;
 }
 .team img{
@@ -220,13 +222,13 @@ section{
 }
 
 .client h4{
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 300;
     word-spacing: 2px;
 }
 
 .client h3{
-    font-weight: 200;
+    font-weight: 100;
     word-spacing: 2px;
 }
 .client{
@@ -243,7 +245,7 @@ section{
     height: 100px;
     background-color:#97a1a1;
     border: none !important;
-    box-shadow: 10px 10px 10px rgb(203, 203, 232),
+    box-shadow: inset 10px 10px 10px rgb(203, 203, 232),
                 inset 2px 2px 10px white;
     border-radius: 20px; 
     overflow: hidden;  
