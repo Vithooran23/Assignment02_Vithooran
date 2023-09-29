@@ -11,7 +11,9 @@
   .footer-area {
     background-color: #051922;
     color: #fff;
-    padding: 150px 0;
+    padding: 40px 0;
+    /* height: 100px; */
+   
   }
   
   h2.widget-title {

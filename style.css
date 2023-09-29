@@ -11,19 +11,16 @@
 
  #navbar {
     position:sticky;
-    
-  
     z-index:100;
-    padding:5px ; 
+    padding-right:-200px ; 
     background-color:#0c3a4c;
-    
 }
 
 .navbar .navbar-brand{
     font-size: 30px;
     font-weight: 800;
     color:#F28123;
-    padding-left: 60px;
+    padding-left:100px;
 }
 
 #navbarSupportedContent{
@@ -54,9 +51,8 @@ section{
 }
 .home{
     /* background: rgb(203, 203, 232); */
-    margin-top: -50px;
-
-    
+    margin-top: -70px !important;
+  
 }
 #home{
     padding-left: 200px;
@@ -88,23 +84,35 @@ section{
     margin-left: 20px;
     font-size: 20px;
 }
+.card-title {
+   font-size: medium;
+   font-weight: 400;
+}
+.btn-primary{
+    font-size: medium;
+}
 .home img{
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
+}
+#home{
+    padding-top: 70px;
 }
 .about{
-    margin-top: -60px;
-    margin-bottom: -50px;
     background: rgb(203, 203, 232);
+    padding-top: -100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .about p{
     text-align: justify;
     font-size: large;
     font-weight: 200;
 }
+
 .img1{
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
 }
 
 .orange-text{
@@ -134,9 +142,7 @@ section{
     
     font-weight: 100;
     word-spacing: 2px;
-
 }
-
 #navbar1{
     
     /* top:0;
@@ -150,9 +156,7 @@ section{
 }
 .portfolio img{
     width: 270px;
-    height: 270px;
-
-    
+    height: 270px; 
 }
 .card{
     width: 290px;
@@ -182,13 +186,12 @@ section{
 .team{
     background:white;
     text-align: center;
-    margin-top:0; 
+    margin-top:-100px; 
     color:#0b212a;  
-    background-size: cover;
+   
     margin-bottom: -200px;
     padding-right: 100px;
     padding-left: 50px;
-
    
 }
 .team h1{
@@ -202,13 +205,13 @@ section{
     word-spacing: 2px;
 }
 .team img{
-    width: 250px;
-    height: 300px;
+    width: 230px;
+    height: 270px;
 }
 
 #card1{
-    width: 250px;
-    height: 300px;
+    width: 230px;
+    height: 270px;
     /* background-color:#97a1a1; */
     border: none !important;
     box-shadow: 10px 10px 10px rgb(203, 203, 232),
@@ -218,7 +221,6 @@ section{
     justify-content: center;  
     align-items: center; 
     margin: 20px 60px;        
-
 }
 
 .client h4{
@@ -228,7 +230,7 @@ section{
 }
 
 .client h3{
-    font-weight: 100;
+    font-weight: 100px;
     word-spacing: 2px;
 }
 .client{
@@ -236,8 +238,8 @@ section{
     text-align: center;
     color:#0b212a;  
     background-size: cover;
-    margin-bottom: -100px;
-    margin-top: -100px;
+    margin-bottom: -200px !important;
+    margin-top: -350px !important;
    
 }
 #card2{
